@@ -200,13 +200,17 @@ body {
 
 /* Button Styling */
 
-button {
+.button {
     background-color: var(--clr-neutral-dark-gray-blue);
     border: 0;
     padding: 1em;
     margin-top: .6em;
     color: var(--clr-neutral-white);
     border-radius: 50px;
+}
+.button:is(:active) {
+    background-color: hsl(224, 30%, 15%);
+    cursor: pointer;
 }
 
 /* Media Query for larger Screens */
