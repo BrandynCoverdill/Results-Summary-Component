@@ -39,9 +39,7 @@
 body {
     font-size: 18px;
     font-family: var(--ff-hanken);
-    height: 100vh;
     display: grid;
-    place-content: center;
 }
 
 /* Result Styling */
@@ -224,5 +222,10 @@ button {
     .result__scored {
         border-radius: 30px;
         max-width: 220px;
+    }
+
+    body {
+    height: 100vh;
+    place-content: center;
     }
 }
